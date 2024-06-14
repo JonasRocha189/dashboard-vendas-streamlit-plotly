@@ -1,0 +1,29 @@
+install libs
+- pip install stramlit
+- pip install pandas
+- pip install plotly
+
+Plotly serve para criar graficos interativos
+
+para rodar o streamlit
+streamlit run app.py 
+
+setar a configuracao de visualizacao padrao para wide
+
+- pode-se criar filtros para os graficos
+- para criar novas paginas, basta criar uma pasta com o nome pages, assim o streamlit entende que tem uma estrutura de paginas
+
+----
+
+DEPLOY
+
+pip list // mostra os pacotes utilizados
+pip freeze // 
+
+criar arquivo requirements.txt
+pip list > requirements.txt
+obs: remover o cabecalho e as versoes dos pacotes
+
+criar arquivo gitignore e excluir os arquivos da paste venv
+
+subir o projeto no git
