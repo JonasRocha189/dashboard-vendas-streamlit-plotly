@@ -30,7 +30,7 @@ print(df_vendedores)
 
 
 # Funçãp para converter arquivo csv
-@st.cache_data
+@st.experimental_memo
 def convert_csv(df):
     return df.to_csv(index=False).encode('utf-8')
 
